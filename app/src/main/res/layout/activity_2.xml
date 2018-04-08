@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"  tools:context="edu_up_cs301.game.Activity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="       Rules"
+            android:textSize="64sp"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-Players take turn throwing a die until a player rolls a six Then a piece will start in the starting square"
+            android:textSize="22sp"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-Each time a player rolls a six an extra roll is awarded after removing a piece or moving a piece six spots"
+            android:textSize="22sp"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-If a a piece lands on a space where an enemy piece is. That piece returns to the enemy players base.  "
+            android:textSize="22sp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-If a a piece lands on a space where an enemy piece is and its in a red, yellow, green, or star space both pieces occupy the space.  "
+            android:textSize="22sp"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-Once in the homestrech one must role the exact amount of spaces to advance to the next tile  "
+            android:textSize="22sp"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+
+</LinearLayout>
